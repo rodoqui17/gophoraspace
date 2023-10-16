@@ -1,10 +1,20 @@
 .mars-background {
   background: url("/src/marte.jpg") no-repeat center center fixed;
-  background-size: cover;
-  height: 100vh;
+  /* background-size: cover;
+  height: 10vh;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
+}
+
+.mars-background h1{
+  color: #f4f8fb;
+  text-align: center;
+  /* background-size: cover;
+  height: 10vh;
+  display: flex;
+  justify-content: center;*/
+  align-items: center; 
 }
 
 .mars-title {
@@ -24,6 +34,17 @@
   text-align: center; /* Alineación de texto */
   position: absolute;
   margin-top: 35%;
+  
+  /* Otros estilos CSS según tus preferencias */
+}
+
+.mars-title p {
+  color: #f4f8fb; /* Color del texto */
+  font-size: 25px; /* Tamaño de fuente */
+  font-weight: bold; /* Negrita */
+  text-align: center; /* Alineación de texto */
+  position: absolute;
+  margin-top: 40%;
   
   /* Otros estilos CSS según tus preferencias */
 }
