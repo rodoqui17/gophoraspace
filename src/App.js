@@ -26,7 +26,7 @@ const App = () => {
       <CountdownTimer />
 
       <div className="mars-background">
-        <h1>Tripulantes</h1>
+        <h1>TRIPULANTE</h1>
         <Container>
           <Row>
             {options.map((option, index) => (
