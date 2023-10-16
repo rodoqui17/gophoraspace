@@ -97,7 +97,7 @@ margin-bottom: 30%;
   left: 10%;
   width: 200px;
   height: 200px;
-
+  animation: rotate 100s alternate  infinite;
   border-radius: 50%;
   transform: translate(-50%, -50%);
 }
@@ -183,7 +183,7 @@ margin-bottom: 30%;
   .planet {
     position: absolute;
     margin-top: 10px;
-    margin-bottom: 50%;
+    margin-bottom: 60%;
   }
 }
 
