@@ -1,38 +1,224 @@
-.App {
+.mars-background {
+  background: url("/src/marte.jpg") no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mars-title {
+  background: url("/src/gophoraback.jpg") no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mars-title h2 {
+  color: #f4f8fb; /* Color del texto */
+  font-size: 35px; /* Tamaño de fuente */
+  font-weight: bold; /* Negrita */
+  text-align: center; /* Alineación de texto */
+  position: absolute;
+  margin-top: 35%;
+  
+  /* Otros estilos CSS según tus preferencias */
+}
+
+.mars-title h1 {
+  font-size: 3rem;
+  margin-top: 50px;
+  color: #ffffff;
+  padding: auto;
+  text-decoration:overline;
+}
+
+.name-list {
+  background: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+h1 {
+  padding: auto;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.planet {
+  background: url("/src/astronauta2.png") no-repeat center center fixed;
+  width: 150px;
+  height: 150px;
+  /* background-color: orange; */
+  background-size:cover;
+  border-radius: 50%;
+  position: absolute;
+  margin-top: 20%;
+  animation: rotate 25s linear infinite; /* Aplica la animación llamada 'rotate' */
+}
+
+.planet-inner {
+  background: url("/src/astronauta.png") no-repeat center center fixed;
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  width: 200px;
+  height: 200px;
+
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg); /* Inicia la rotación desde 0 grados */
+  }
+  to {
+    transform: rotate(360deg); /* Gira 360 grados en sentido horario */
+  }
+}
+
+/* CountdownTimer.css */
+.countdown {
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+.countdown-item {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.countdown-number {
+  font-size: 4rem;
+  font-weight: bold;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.countdown-label {
+  font-size: 0.9rem;
+  color: #070707;
+}
+
+@media screen and (max-width: 1023px) {
+  /* Agrega estilos específicos para pantallas medianas */
+  .container {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .main-content {
+    flex-direction: column;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+/* Estilos para pantallas pequeñas (móviles) */
+@media screen and (max-width: 767px) {
+  /* Agrega estilos específicos para pantallas pequeñas */
+  .container {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .main-content {
+    flex-direction: column;
+  }
+  .menu {
+    display: none;
+  }
+
+  .mars-title h1{
+    width: auto;
+    font-size: 1.2rem;
+    size: 0cap;
+  }
+  .mars-title h2{
+    width: auto;
+    font-size: 1.5rem;
+    text-align: center;
+    display:block;
+    position: absolute;
+    margin-top: 70%;
+
+  }
+  .countdown h1{
+    width: auto;
+    font-size: 0rem;
+    size: 0cap; 
+  }
+
+  .planet {
+    position: absolute;
+    margin-top: 40%;
+  }
+}
+
+/* styles.css */
+.contenedor-tarjetas {
+  display:block/* App.css */
+  .name-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 60px;
+    margin: 0 auto;
+  }
+  
+  .column-list {
+    list-style:circle;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+  }
+  
+  .column-list li {
+    background-color: #0077b6;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  ;
+  justify-content: space-around;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-wrap: wrap;
 }
 
-.App-link {
-  color: #61dafb;
+.tarjeta {
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.tarjeta img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
 }
+
+.tarjeta h2 {
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.tarjeta p {
+  font-size: 1rem;
+  color: #666;
+}
+
