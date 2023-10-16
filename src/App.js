@@ -16,8 +16,8 @@ const App = () => {
       {/* <Navbar /> */}
       <h3 className="planet-inner"></h3>
       <div className="mars-title">
-        <h1>#GOPHORALANZATUNOMBREALESPACIO</h1>
-        <h2 className="h2">11 DE NOVIEMBRE</h2>
+        <h2>#lanzatunombrealespacio</h2>
+        <h1>11 DE NOVIEMBRE</h1>
 
         <h3 className="planet"></h3>
         <br />

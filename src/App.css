@@ -34,6 +34,7 @@
   text-align: center; /* Alineación de texto */
   position: absolute;
   margin-top: 35%;
+  margin-bottom: 45%;
   
   /* Otros estilos CSS según tus preferencias */
 }
@@ -85,7 +86,7 @@ li {
   background-size:cover;
   border-radius: 50%;
   position: absolute;
-  margin-top: 20%;
+margin-bottom: 30%;
   animation: rotate 25s linear infinite; /* Aplica la animación llamada 'rotate' */
 }
 
@@ -160,8 +161,9 @@ li {
 
   .mars-title h1{
     width: auto;
-    font-size: 1.2rem;
+    font-size: 1rem;
     size: 0cap;
+    margin-top: 0%;
   }
   .mars-title h2{
     width: auto;
@@ -169,7 +171,7 @@ li {
     text-align: center;
     display:block;
     position: absolute;
-    margin-top: 70%;
+    margin-top: 30%;
 
   }
   .countdown h1{
@@ -180,7 +182,8 @@ li {
 
   .planet {
     position: absolute;
-    margin-top: 40%;
+    margin-top: 10px;
+    margin-bottom: 50%;
   }
 }
 
