@@ -31,7 +31,7 @@ const App = () => {
           <Row>
             {options.map((option, index) => (
               <Col xs={12} lg={3}>
-                <Card style={{ width: "140px", padding: "10px", margin: "4px" }}>
+                <Card style={{ width: "1000px", padding: "10px", margin: "4px" }}>
                   <Card.Img variant="top" src={option.img} />
                   <Card.Body>
                     <Card.Title>Tripulante # {option.id}</Card.Title>
