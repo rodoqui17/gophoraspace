@@ -1,8 +1,12 @@
 .mars-background {
-  background: url("/src/marte.jpg") no-repeat center center fixed;
+  background: url("/src/assets/marte.jpg") no-repeat center center fixed;
   background-size: cover;
+
+  display: flex;
+
   height: auto;
   /* display: flex; */
+
   justify-content: center;
   align-items: center; 
 }
@@ -18,7 +22,7 @@
 }
 
 .mars-title {
-  background: url("/src/gophoraback.jpg") no-repeat center center fixed;
+  background: url("/src/assets/gophoraback.jpg") no-repeat center center fixed;
   background-size: cover;
   height: 100vh;
   color: aliceblue;
@@ -79,7 +83,11 @@ li {
 }
 
 .planet {
+
+  background: url("/src/assets/astronauta2.png") no-repeat center center fixed;
+
   background: url("/src/astro.jpg") no-repeat center center fixed;
+
   width: 150px;
   height: 150px;
   /* background-color: orange; */
@@ -91,7 +99,7 @@ margin-bottom: 30%;
 }
 
 .planet-inner {
-  background: url("/src/astronauta.png") no-repeat center center fixed;
+  background: url("/src/assets/astronauta.png") no-repeat center center fixed;
   position: absolute;
   top: 10%;
   left: 10%;
@@ -189,7 +197,8 @@ margin-bottom: 30%;
 
 /* styles.css */
 .contenedor-tarjetas {
-  display:block/* App.css */
+  /* App.css */
+  display: flex;
   .name-list {
     display: flex;
     flex-wrap: wrap;
@@ -245,4 +254,8 @@ margin-bottom: 30%;
   font-size: 1rem;
   color: #666;
 }
-
+/*boootstrap*/
+.container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
