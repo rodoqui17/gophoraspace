@@ -17,7 +17,7 @@ const App = () => {
       {/* <h3 className="planet-inner"></h3> */}
       <div className="mars-title">
       
-        <h2>#lanzatunombrealespacio</h2>
+        <h2>#gophoralanzatunombrealespacio</h2>
         <h1>11 DE NOVIEMBRE</h1>
 
         <h3 className="planet"></h3>
