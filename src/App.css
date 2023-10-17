@@ -180,10 +180,15 @@ margin-bottom: 30%;
     size: 0cap; 
   }
 
-  .flotar {
-    position: relative;
+  .planet {
+    position: absolute;
     margin-top: 10px;
     margin-bottom: 80%;
+  }
+    .flotar {
+    position: absolute;
+    margin-top: 0px;
+    margin-bottom: 150%;
   }
 }
 
