@@ -16,8 +16,8 @@ const App = () => {
      {/*  <Navbar /> */}
       {/* <h3 className="planet-inner"></h3> */}
       <div className="mars-title">
-        <h1>GOPHORA</h1>
-        <h2>#lanzatunombrealespacio</h2>
+      
+        <h2>#gophoralanzatunombrealespacio</h2>
         <h1>11 DE NOVIEMBRE</h1>
 
         <h3 className="planet"></h3>
@@ -32,7 +32,7 @@ const App = () => {
           <Row>
             {options.map((option, index) => (
               <Col xs={12} lg={3}>
-                <Card style={{ width: "auto", heigth:"350px" , padding: "20px", margin: "14px" }}>
+                <Card style={{ width: "auto", padding: "10px", margin: "4px" }}>
   
                   <Card.Img variant="top" src={option.img} />
                   <Card.Body>
