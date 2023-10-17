@@ -249,7 +249,7 @@ margin-bottom: 30%;
 .rebote {
   width: 100px;
   height: 100px;
-  background-color: #3498db;
+  background: url("/src/astro.jpg") no-repeat center center fixed;
   color: #fff;
   text-align: center;
   line-height: 100px;
