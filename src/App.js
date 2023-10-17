@@ -13,7 +13,7 @@ const App = () => {
   console.log(Row);
   return (
     <div>
-      {/* <Navbar /> */}
+      <Navbar /> 
       {/* <h3 className="planet-inner"></h3> */}
       <div className="mars-title">
         <h2>#lanzatunombrealespacio</h2>
