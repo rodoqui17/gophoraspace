@@ -20,7 +20,7 @@ const App = () => {
         <h2>#gophoralanzatunombrealespacio</h2>
         <h1>11 DE NOVIEMBRE</h1>
 
-        <h3 className="rebote"></h3>
+        <h3 className="planet"></h3>
         <br />
       </div>
 
