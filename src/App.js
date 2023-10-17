@@ -31,11 +31,12 @@ const App = () => {
           <Row>
             {options.map((option, index) => (
               <Col xs={12} lg={3}>
-                <Card style={{ width: "auto", padding: "20px", margin: "14px" }}>
+                <Card style={{ width: "auto", heigth:"250px" padding: "20px", margin: "14px" }}>
+  <Card.Title>{option.nombre}</Card.Title>
                   <Card.Img variant="top" src={option.img} />
                   <Card.Body>
-                    <Card.Title>Tripulante # {option.id}</Card.Title>
-                    <Card.Text>{option.nombre}</Card.Text>
+                    
+                    <Card.Text>Tripulante # {option.id}</Card.Text>
                     {/* <Button variant="primary">Go somewhere</Button> */}
                   </Card.Body>
                 </Card>
