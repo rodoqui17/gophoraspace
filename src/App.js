@@ -13,7 +13,7 @@ const App = () => {
   console.log(Row);
   return (
     <div>
-      <Navbar /> 
+     {/*  <Navbar /> */}
       {/* <h3 className="planet-inner"></h3> */}
       <div className="mars-title">
         <h2>#lanzatunombrealespacio</h2>
@@ -31,7 +31,7 @@ const App = () => {
           <Row>
             {options.map((option, index) => (
               <Col xs={12} lg={3}>
-                <Card style={{ width: "auto", padding: "10px", margin: "4px" }}>
+                <Card style={{ width: "40px", padding: "10px", margin: "4px" }}>
                   <Card.Img variant="top" src={option.img} />
                   <Card.Body>
                     <Card.Title>Tripulante # {option.id}</Card.Title>
