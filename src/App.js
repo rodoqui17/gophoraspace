@@ -34,8 +34,8 @@ const App = () => {
                 <Card style={{ width: "auto", padding: "10px", margin: "4px" }}>
                   <Card.Img variant="top" src={option.img} />
                   <Card.Body>
-                    <Card.Title>{option.nombre}</Card.Title>
-                    <Card.Text>Tripulante # {option.id}</Card.Text>
+                    <Card.Title>Tripulante # {option.id}</Card.Title>
+                    <Card.Text>{option.nombre}</Card.Text>
                     {/* <Button variant="primary">Go somewhere</Button> */}
                   </Card.Body>
                 </Card>
