@@ -15,12 +15,12 @@ const App = () => {
     <div>
      {/*  <Navbar /> */}
       {/* <h3 className="planet-inner"></h3> */}
-      <div className="rebote">
+      <div className="mars-title">
       
         <h2>#gophoralanzatunombrealespacio</h2>
         <h1>11 DE NOVIEMBRE</h1>
 
-        <h3 className="planet"></h3>
+        <h3 className="rebote"></h3>
         <br />
       </div>
 
