@@ -2,7 +2,7 @@ import React from "react";
 import "./App.css";
 import Badge from "react-bootstrap/Badge";
 import Button from "react-bootstrap/Button";
-// import Navbar from "./navbar";
+import Navbar from "./navbar";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSpaceShuttle } from "@fortawesome/free-solid-svg-icons";
 import CountdownTimer from "./components/cuenta";
@@ -13,7 +13,7 @@ const App = () => {
   console.log(Row);
   return (
     <div>
-      <Navbar />
+      <Navbar /> 
       {/* <h3 className="planet-inner"></h3> */}
       <div className="mars-title">
         <h2>#lanzatunombrealespacio</h2>
