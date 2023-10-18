@@ -228,13 +228,14 @@ margin-bottom: 30%;
 }
 
 .tarjeta {
-  width: 300px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
+  width: auto;
+ border-radius: 25px;
+  padding: "10px", 
+  margin: "4px"
   padding: 20px;
   margin: 10px;
   text-align: center;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 10px 10px 2px 4px rgba(0, 0, 0, 0.1);
   background-color: #fff;
 }
 
