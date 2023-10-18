@@ -20,6 +20,12 @@ const App = () => {
         <h1>11 DE NOVIEMBRE</h1>
 
         <h3 className="planet"></h3>
+     <div class="contenedor">
+    <div class="flotante"></div>
+    <div class="flotante"></div>
+    <div class="flotante"></div>
+    <div class="flotante"></div>
+  </div>
         <br />
       </div>
 
