@@ -33,7 +33,8 @@ const App = () => {
           <Row>
             {options.map((option, index) => (
               <Col xs={12} lg={3}>
-                <Card  className = "tarjeta">
+              <div ClassName = "tarjeta">  
+              <Card>
   
                   <Card.Img variant="top" src={imagen} />
                   <Card.Body>
@@ -42,6 +43,7 @@ const App = () => {
                     {/* <Button variant="primary">Go somewhere</Button> */}
                   </Card.Body>
                 </Card>
+              <div/>
               </Col>
             ))}
           </Row>
