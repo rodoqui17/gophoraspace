@@ -1,5 +1,5 @@
 .mars-background {
-  background: url("/src/gophoraback.jpg") no-repeat center center fixed;
+  background: url("/src/marte.jpg") no-repeat center center fixed;
   background-size: cover;
   height: auto;
   /* display: flex; */
@@ -18,7 +18,7 @@
 }
 
 .mars-title {
-  background: url("/src/marte.jpg") no-repeat center center fixed;
+  background: url("/src/gophoraback.jpg") no-repeat center center fixed;
   background-size: cover;
   height: 100vh;
   color: aliceblue;
