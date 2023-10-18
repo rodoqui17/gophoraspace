@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-
+import "../App.css"
 const CountdownTimer = () => {
   const [countdown, setCountdown] = useState(366500); // Tiempo en segundos (ejemplo: 4 días, 6 horas, 8 minutos y 20 segundos)
 
