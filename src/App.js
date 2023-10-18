@@ -29,11 +29,11 @@ const App = () => {
 
       <div className="mars-background">
         <h1>TRIPULANTES</h1>
-        <Container>
+        <Container >
           <Row>
             {options.map((option, index) => (
               <Col xs={12} lg={3}>
-                <Card style={{ width: "auto", padding: "10px", margin: "4px" }}>
+                <Card style={{ width: "auto", padding: "10px", margin: "4px" }} className = "tarjeta">
   
                   <Card.Img variant="top" src={imagen} />
                   <Card.Body>
