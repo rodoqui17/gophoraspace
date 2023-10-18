@@ -268,6 +268,7 @@ margin-bottom: 30%;
   margin-bottom: 20%;
   line-height: 100px;
   animation: flotar 5s ease-in-out infinite;
+  animation: rotate 25s linear infinite; /* Aplica la animación llamada 'rotate' */
 }
 
 @keyframes flotar {
