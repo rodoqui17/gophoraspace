@@ -187,8 +187,8 @@ margin-bottom: 30%;
   }
     .flotar {
     position: absolute;
-    margin-top: 0px;
-    margin-bottom: 150%;
+    margin-top: 10%;
+    margin-bottom: 50%;
   }
 }
 
@@ -259,7 +259,7 @@ margin-bottom: 30%;
   background-size:cover;
   border-radius: 50%;
   position: absolute;
-  margin-bottom: 50%;
+  margin-bottom: 30%;
   animation: flotar 4s ease-in-out infinite;
   
 }
@@ -268,8 +268,14 @@ margin-bottom: 30%;
   0% {
     transform: translateY(-20px);
   }
+  25% {
+    transform: translateX(-30px);
+  }
   50% {
     transform: translateY(-50px);
+  }
+  75% {
+    transform: translateX(-30px);
   }
   100% {
     transform: translateY(-20px);
