@@ -8,6 +8,7 @@ import { faSpaceShuttle } from "@fortawesome/free-solid-svg-icons";
 import CountdownTimer from "./components/cuenta";
 import options from "./components/data";
 import Tarjeta from "./components/card";
+import imagen from "./astronauta2.png"
 import { Row, Col, Container, Card } from "react-bootstrap";
 const App = () => {
   console.log(Row);
@@ -34,7 +35,7 @@ const App = () => {
               <Col xs={12} lg={3}>
                 <Card style={{ width: "auto", padding: "10px", margin: "4px" }}>
   
-                  <Card.Img variant="top" src={option.img} />
+                  <Card.Img variant="top" src={imagen} />
                   <Card.Body>
                     <Card.Title>{option.nombre}</Card.Title>
                     <Card.Text>Tripulante # {option.id}</Card.Text>
