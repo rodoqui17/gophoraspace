@@ -1,7 +1,11 @@
 import React, { useState, useEffect } from "react";
 import "../App.css"
 const CountdownTimer = () => {
-  const [countdown, setCountdown] = useState(366500); // Tiempo en segundos (ejemplo: 4 días, 6 horas, 8 minutos y 20 segundos)
+  const targetDate = new Date("2023-11-11T00:00:00Z"); // Fecha de destino (11 de noviembre de 2023)
+  const now = new Date();
+  const timeDifference = targetDate - now; // Diferencia de tiempo en milisegundos
+
+  const [countdown, setCountdown] = useState(timeDifference / 1000); // Convertir milisegundos a segundos
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -18,7 +22,7 @@ const CountdownTimer = () => {
   const days = Math.floor(countdown / (60 * 60 * 24));
   const hours = Math.floor((countdown % (60 * 60 * 24)) / (60 * 60));
   const minutes = Math.floor((countdown % (60 * 60)) / 60);
-  const seconds = countdown % 60;
+  const seconds = Math.floor((countdown % 60));
 
   return (
     <div className="">
