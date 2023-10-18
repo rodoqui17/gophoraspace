@@ -116,7 +116,7 @@ margin-bottom: 30%;
 
 /* CountdownTimer.css */
 .countdown {
-
+ color: #f4f8fb;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -128,7 +128,7 @@ margin-bottom: 30%;
 }
 
 .countdown-number {
-  font-size: 4rem;
+  font-size: 3rem;
   font-weight: bold;
 }
 
