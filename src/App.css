@@ -116,7 +116,8 @@ margin-bottom: 30%;
 
 /* CountdownTimer.css */
 .countdown {
- background-color: #f4f8fb;
+/* background-color: #f4f8fb;*/
+  background: url("/src/gophoraback.jpg") no-repeat center center fixed;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -130,11 +131,12 @@ margin-bottom: 30%;
 .countdown-number {
   font-size: 3rem;
   font-weight: bold;
+   color: #ffff;
 }
 
 .countdown-label {
   font-size: 0.9rem;
-  color: #070707;
+  color: #ffff;
 }
 
 @media screen and (max-width: 1023px) {
