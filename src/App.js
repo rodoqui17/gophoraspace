@@ -43,7 +43,7 @@ const App = () => {
                     {/* <Button variant="primary">Go somewhere</Button> */}
                   </Card.Body>
                 </Card>
-              <div/>
+              </div>
               </Col>
             ))}
           </Row>
