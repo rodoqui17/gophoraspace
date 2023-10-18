@@ -16,7 +16,7 @@ const App = () => {
     <div>
      {/*  <Navbar /> */}
       {/* <h3 className="planet-inner"></h3> */}
-    <p><CountdownTimer /></p>
+    <CountdownTimer />
       <div className="mars-title">
       
         <h2>#gophoralanzatunombrealespacio</h2>
