@@ -263,18 +263,18 @@ margin-bottom: 30%;
   border-radius: 50%;
   margin-bottom: 30%;
   line-height: 100px;
-  animation: flotar 4s ease-in-out infinite;
+  animation: flotar 10s ease-in-out infinite;
 }
 
 @keyframes flotar {
   0% {
-    transform: translateY(20px);
+    transform: translateY(50px);
   }
   50% {
     transform: translateY(-50px);
   }
   100% {
-    transform: translateY(20px);
+    transform: translateY(50px);
   }
 }
 
