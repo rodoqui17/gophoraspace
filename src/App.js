@@ -24,7 +24,7 @@ const App = () => {
 
         <h3 className="flotar"></h3>
           <br />
-      <p><CountdownTimer /></p>
+   
       </div>
 
     
