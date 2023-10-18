@@ -8,7 +8,7 @@ import { faSpaceShuttle } from "@fortawesome/free-solid-svg-icons";
 import CountdownTimer from "./components/cuenta";
 import options from "./components/data";
 import Tarjeta from "./components/card";
-import imagen from "./astro.jpg"
+import imagen from "./astronauta.png"
 import { Row, Col, Container, Card } from "react-bootstrap";
 const App = () => {
   console.log(Row);
