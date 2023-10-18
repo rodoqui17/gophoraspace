@@ -33,7 +33,7 @@ const App = () => {
           <Row>
             {options.map((option, index) => (
               <Col xs={12} lg={3}>
-                <Card style={{ width: "auto", padding: "10px", margin: "4px" }} className = "tarjeta">
+                <Card  className = "tarjeta">
   
                   <Card.Img variant="top" src={imagen} />
                   <Card.Body>
