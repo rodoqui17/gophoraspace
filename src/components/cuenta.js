@@ -24,7 +24,7 @@ const CountdownTimer = () => {
     <div className="">
       
       <div className="countdown">
-      <h2>Cuenta Regresiva</h2>
+      <h1>Cuenta Regresiva</h1>
         <div className="countdown-item">
           <span className="countdown-number">{days}</span>
           <span className="countdown-label"> Días</span>
