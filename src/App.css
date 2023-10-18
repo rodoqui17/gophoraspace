@@ -259,19 +259,19 @@ margin-bottom: 30%;
   background-size:cover;
   border-radius: 50%;
   position: absolute;
-  margin-bottom: 30%;
+  margin-bottom: 50%;
   animation: flotar 4s ease-in-out infinite;
   
 }
 
 @keyframes flotar {
   0% {
-    transform: translateY(-10px);
+    transform: translateY(-20px);
   }
   50% {
-    transform: translateY(-40px);
+    transform: translateY(-50px);
   }
   100% {
-    transform: translateY(-10px);
+    transform: translateY(-20px);
   }
 }
