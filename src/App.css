@@ -266,7 +266,7 @@ margin-bottom: 30%;
 
 @keyframes flotar {
   0% {
-    transform: translateY(10);
+    transform: translateY(-10px);
   }
   50% {
     transform: translateY(-20px);
