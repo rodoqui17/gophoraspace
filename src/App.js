@@ -34,7 +34,7 @@ const App = () => {
             {options.map((option, index) => (
               <Col xs={12} lg={3}>
               <div ClassName = "tarjeta">  
-              <Card style={{ width: "auto", padding: "10px", margin: "4px" }}>
+              <Card style={{ width: "auto", padding: "10px", margin: "10px", boxshadow: 3px 3px 6px rgba(0, 0, 0, 0.2); }}>
   
                   <Card.Img variant="top" src={imagen} />
                   <Card.Body>
