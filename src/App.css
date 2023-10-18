@@ -116,8 +116,10 @@ margin-bottom: 30%;
 
 /* CountdownTimer.css */
 .countdown {
-/* background-color: #f4f8fb;*/
-  background: url("/src/gophoraback.jpg") no-repeat center center fixed;
+/* background-color: #f4f8fb;
+  background: url("/src/gophoraback.jpg") no-repeat center center fixed;*/
+  background: transparent;
+  position: absolute;
   display: flex;
   justify-content: space-around;
   align-items: center;
