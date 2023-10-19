@@ -17,10 +17,10 @@ const App = () => {
         <h2>#reforestemoselplaneta</h2>
         <h1>24 DE OCTUBRE, 2023</h1>
         <p>Vive una experiencia de triple impacto</p>
-      
+
         <br />
       </div>
-<Button>reserrvar</Button>
+      <Button>RESERVAR</Button>
       <div className="mars-background">
         <h1>ARBOLES CON TU NOMBRE</h1>
         <Container>

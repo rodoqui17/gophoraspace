@@ -8,7 +8,7 @@
 }
 
 .mars-background h1 {
-  color: #000;
+  color: #3C3378;
   text-align: center;
   background-size: cover;
   font-size: 40px; /* Tamaño de fuente */
@@ -31,8 +31,9 @@
 }
 
 .mars-title h2 {
-  color: #000; /* Color del texto */
-  font-size: 40px; /* Tamaño de fuente */
+  color: #3C3378; /* Color del texto */
+  
+  font-size: 50px; /* Tamaño de fuente */
   font-weight: bold; /* Negrita */
   text-align: center; /* Alineación de texto */
   position: absolute;
@@ -43,7 +44,7 @@
 }
 
 .mars-title p {
-  color: #000; /* Color del texto */
+  color: #3C3378; /* Color del texto */
   font-size: 25px; /* Tamaño de fuente */
   font-weight: bold; /* Negrita */
   text-align: center; /* Alineación de texto */
@@ -58,7 +59,7 @@
   font-size: 3rem;
   margin-top: 50px;
   font-weight: bold; /* Negrita */
-  color: #000;
+  color: #3C3378;
   padding: auto;
   font-family:'Courier New', Courier, monospace;
   margin-bottom: 1%;
@@ -138,13 +139,13 @@ li {
 .countdown-number {
   font-size: 3rem;
   font-weight: bold;
-  color: #000;
+  color: #fff;
   font-family:'Courier New', Courier, monospace;
 }
 
 .countdown-label {
   font-size: 0.9rem;
-  color: #000;
+  color: #fff;
   font-family:'Courier New', Courier, monospace;
 }
 
@@ -213,7 +214,7 @@ li {
   .planet {
     position: absolute;
     margin-top: 10px;
-    margin-bottom: 40%;
+    margin-bottom: 50%;
   }
   .flotar {
     position: absolute;
