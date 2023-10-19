@@ -2,20 +2,32 @@
   background: url("/src/img/background.jpg") no-repeat center center fixed;
   background-size: cover;
   height: auto;
+
   /* display: flex; */
   justify-content: center;
   align-items: center;
 }
 
 .mars-background h1 {
-  color: #3C3378;
+  color: #3c3378;
   text-align: center;
   background-size: cover;
+  padding-top: 10%;
+  padding-bottom: 10%;
   font-size: 40px; /* Tamaño de fuente */
   font-weight: bold; /* Negrita */
-  font-family:'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
   height: 10vh;
   display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mars-button{
+  background: url("/src/img/background.jpg") no-repeat center center fixed;
+  background-size: cover;
+  height: auto;
+  /* display: flex; */
   justify-content: center;
   align-items: center;
 }
@@ -31,26 +43,26 @@
 }
 
 .mars-title h2 {
-  color: #3C3378; /* Color del texto */
-  
+  color: #3c3378; /* Color del texto */
+
   font-size: 50px; /* Tamaño de fuente */
   font-weight: bold; /* Negrita */
   text-align: center; /* Alineación de texto */
   position: absolute;
-  font-family:'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
   margin-bottom: 10%;
 
   /* Otros estilos CSS según tus preferencias */
 }
 
 .mars-title p {
-  color: #3C3378; /* Color del texto */
+  color: #3c3378; /* Color del texto */
   font-size: 25px; /* Tamaño de fuente */
   font-weight: bold; /* Negrita */
   text-align: center; /* Alineación de texto */
   position: absolute;
   margin-top: 40%;
-  font-family:'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
 
   /* Otros estilos CSS según tus preferencias */
 }
@@ -59,9 +71,9 @@
   font-size: 3rem;
   margin-top: 50px;
   font-weight: bold; /* Negrita */
-  color: #3C3378;
+  color: #3c3378;
   padding: auto;
-  font-family:'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
   margin-bottom: 1%;
   text-decoration: overline;
 }
@@ -96,7 +108,7 @@ li {
   position: absolute;
   /* margin-top: 5%; */
   margin-bottom: 30%;
-  animation: rotate 90s linear infinite; 
+  animation: rotate 90s linear infinite;
   /* Aplica la animación llamada 'rotate' */
 }
 
@@ -140,13 +152,13 @@ li {
   font-size: 3rem;
   font-weight: bold;
   color: #fff;
-  font-family:'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
 }
 
 .countdown-label {
   font-size: 0.9rem;
   color: #fff;
-  font-family:'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
 }
 
 @media screen and (max-width: 1023px) {
@@ -172,6 +184,11 @@ li {
   }
   .menu {
     display: none;
+  }
+
+  .mars-background h1 {
+    padding-top: 20%;
+    padding-bottom: 10%;
   }
 
   .mars-title h1 {

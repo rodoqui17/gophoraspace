@@ -17,14 +17,14 @@ const App = () => {
         <h2>#reforestemoselplaneta</h2>
         <h1>24 DE OCTUBRE, 2023</h1>
         <p>Vive una experiencia de triple impacto</p>
-
-        <br />
       </div>
-      <div>
-        <Button variant="success">RESERVAR</Button>
+      <div className="d-grid gap-2 mars-button">
+        <Button variant="primary" size="lg">
+          Block level button
+        </Button>
       </div>
       <div className="mars-background">
-        <h1>ARBOLES CON TU NOMBRE</h1>
+        <h1>ARBOLES SEMBRADOS</h1>
         <Container>
           <Row>
             {options.map((option, index) => (
@@ -40,8 +40,9 @@ const App = () => {
                   >
                     <Card.Img variant="top" src={imagen} />
                     <Card.Body>
-                      <Card.Text>Nombre de la Planta:</Card.Text>
-                      <Card.Title>{option.nombre}</Card.Title>
+                    <Card.Title>Lugar: Palca</Card.Title>
+                      <Card.Text>Nombre: {option.nombre}</Card.Text>
+                      
 
                       {/* <Button variant="primary">Go somewhere</Button> */}
                     </Card.Body>
