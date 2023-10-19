@@ -28,8 +28,10 @@
   background-size: cover;
   height: auto;
   /* display: flex; */
+  position: relative;
   justify-content: center;
   align-items: center;
+  padding-bottom: 10%;
 }
 
 .mars-title {

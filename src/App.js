@@ -18,11 +18,13 @@ const App = () => {
         <h1>24 DE OCTUBRE, 2023</h1>
         <p>Vive una experiencia de triple impacto</p>
       </div>
-      <div className="d-grid gap-2 mars-button">
-        <Button variant="primary" size="lg">
-          Block level button
-        </Button>
-      </div>
+      
+        <div className="d-grid gap-2 mars-button">
+          <Button variant="primary" size="lg">
+            RESERVAR ARBOL
+          </Button>
+        </div>
+      
       <div className="mars-background">
         <h1>ARBOLES SEMBRADOS</h1>
         <Container>
@@ -40,9 +42,8 @@ const App = () => {
                   >
                     <Card.Img variant="top" src={imagen} />
                     <Card.Body>
-                    <Card.Title>Lugar: Palca</Card.Title>
+                      <Card.Title>Lugar: Palca</Card.Title>
                       <Card.Text>Nombre: {option.nombre}</Card.Text>
-                      
 
                       {/* <Button variant="primary">Go somewhere</Button> */}
                     </Card.Body>
