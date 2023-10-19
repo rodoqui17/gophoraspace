@@ -3,9 +3,15 @@ import "./App.css";
 import CountdownTimer from "./components/cuenta";
 import options from "./components/data";
 import imagen from "./img/mars2.png";
+import { useEffect } from "react";
 import { Row, Col, Container, Card, Button } from "react-bootstrap";
+
+
+ 
+
+
 const App = () => {
-  console.log(Row);
+  const urlExterna = 'https://www.ejemplo.com';
   return (
     <div>
       {/*  <Navbar /> */}
@@ -20,9 +26,9 @@ const App = () => {
       </div>
       
         <div className="d-grid gap-2 mars-button">
-          <Button variant="outline-success" size="lg">
+          <Button variant="outline-success" size="lg"  href={urlExterna} target="_blank" rel="noopener noreferrer">
             TICKET
-          </Button>{' '}
+          </Button>
         </div>
       
       <div className="mars-background">
