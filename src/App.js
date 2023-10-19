@@ -20,13 +20,13 @@ const App = () => {
       </div>
       
         <div className="d-grid gap-2 mars-button">
-          <Button variant="primary" size="lg">
-            RESERVA TU ARBOL
-          </Button>
+          <Button variant="outline-success" size="lg">
+            TICKET
+          </Button>{' '}
         </div>
       
       <div className="mars-background">
-        <h1>ARBOLES SEMBRADOS</h1>
+        <h1>ARBOLES RESERVADOS</h1>
         <Container>
           <Row>
             {options.map((option, index) => (
