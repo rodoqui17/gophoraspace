@@ -1,5 +1,5 @@
 .mars-background {
-  background: url("/src/img/marte.jpg") no-repeat center center fixed;
+  background: url("/src/img/background.jpg") no-repeat center center fixed;
   background-size: cover;
   height: auto;
   /* display: flex; */
