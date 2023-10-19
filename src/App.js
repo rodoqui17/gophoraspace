@@ -3,7 +3,7 @@ import "./App.css";
 import CountdownTimer from "./components/cuenta";
 import options from "./components/data";
 import imagen from "./img/mars2.png";
-import { Row, Col, Container, Card } from "react-bootstrap";
+import { Row, Col, Container, Card, Button } from "react-bootstrap";
 const App = () => {
   console.log(Row);
   return (
@@ -14,15 +14,15 @@ const App = () => {
 
       <div className="mars-title">
         <h3 className="planet"></h3>
-        <h2>#unarbolcontunombre</h2>
+        <h2>#reforestemoselplaneta</h2>
         <h1>24 DE OCTUBRE, 2023</h1>
         <p>Vive una experiencia de triple impacto</p>
-
+      
         <br />
       </div>
-
+<Button>reserrvar</Button>
       <div className="mars-background">
-        <h1>ARBOLES</h1>
+        <h1>ARBOLES CON TU NOMBRE</h1>
         <Container>
           <Row>
             {options.map((option, index) => (

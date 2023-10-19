@@ -185,7 +185,15 @@ li {
     text-align: center;
     display: block;
     position: absolute;
-    margin-top: 30%;
+    margin-top: 20%;
+  }
+  .mars-title button {
+    width: auto;
+    font-size: 0.7rem;
+    text-align: center;
+    display: block;
+    position: absolute;
+    margin-top: 35%;
   }
 
   .mars-title p {
