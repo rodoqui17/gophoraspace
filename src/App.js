@@ -20,7 +20,9 @@ const App = () => {
 
         <br />
       </div>
-      <Button>RESERVAR</Button>
+      <div>
+        <Button variant="success">RESERVAR</Button>
+      </div>
       <div className="mars-background">
         <h1>ARBOLES CON TU NOMBRE</h1>
         <Container>
