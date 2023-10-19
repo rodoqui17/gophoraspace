@@ -23,7 +23,7 @@ const App = () => {
       
 
       <div className="mars-background">
-        <h1>APORTANTES</h1>
+        <h1>ARBOLES</h1>
         <Container>
           <Row>
             {options.map((option, index) => (
@@ -34,8 +34,9 @@ const App = () => {
                   >
                     <Card.Img variant="top" src={imagen} />
                     <Card.Body>
+                    <Card.Text>Plantador por:</Card.Text>
                       <Card.Title>{option.nombre}</Card.Title>
-                      <Card.Text>Tripulante # {option.id}</Card.Text>
+                      
                       {/* <Button variant="primary">Go somewhere</Button> */}
                     </Card.Body>
                   </Card>
