@@ -2,7 +2,7 @@ import React from "react";
 import "./App.css";
 import CountdownTimer from "./components/cuenta";
 import options from "./components/data";
- import imagen from "./img/mars2.png";
+import imagen from "./img/mars2.png";
 import { Row, Col, Container, Card } from "react-bootstrap";
 const App = () => {
   console.log(Row);
@@ -11,16 +11,15 @@ const App = () => {
       {/*  <Navbar /> */}
       {/* <h3 className="planet-inner"></h3> */}
       <CountdownTimer />
-      
+
       <div className="mars-title">
-      <h3 className="planet"></h3>
+        <h3 className="planet"></h3>
         <h2>#unarbolcontunombre</h2>
         <h1>24 DE OCTUBRE, 2023</h1>
+        <p>Vive una experiencia de triple impacto</p>
 
-        
         <br />
       </div>
-      
 
       <div className="mars-background">
         <h1>ARBOLES</h1>
@@ -30,13 +29,18 @@ const App = () => {
               <Col xs={12} lg={3}>
                 <div ClassName="tarjeta">
                   <Card
-                    style={{ width: "auto", padding: "10px", margin: "10px", fontfamily:"'Courier New', Courier, monospace" }}
+                    style={{
+                      width: "auto",
+                      padding: "10px",
+                      margin: "10px",
+                      fontfamily: "'Courier New', Courier, monospace",
+                    }}
                   >
                     <Card.Img variant="top" src={imagen} />
                     <Card.Body>
-                    <Card.Text>Plantador por:</Card.Text>
+                      <Card.Text>Nombre de la Planta:</Card.Text>
                       <Card.Title>{option.nombre}</Card.Title>
-                      
+
                       {/* <Button variant="primary">Go somewhere</Button> */}
                     </Card.Body>
                   </Card>

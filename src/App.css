@@ -8,7 +8,7 @@
 }
 
 .mars-background h1 {
-  color: #f4f8fb;
+  color: #000;
   text-align: center;
   background-size: cover;
   font-size: 40px; /* Tamaño de fuente */
@@ -31,7 +31,7 @@
 }
 
 .mars-title h2 {
-  color: #ffff; /* Color del texto */
+  color: #000; /* Color del texto */
   font-size: 40px; /* Tamaño de fuente */
   font-weight: bold; /* Negrita */
   text-align: center; /* Alineación de texto */
@@ -43,12 +43,13 @@
 }
 
 .mars-title p {
-  color: #f4f8fb; /* Color del texto */
+  color: #000; /* Color del texto */
   font-size: 25px; /* Tamaño de fuente */
   font-weight: bold; /* Negrita */
   text-align: center; /* Alineación de texto */
   position: absolute;
   margin-top: 40%;
+  font-family:'Courier New', Courier, monospace;
 
   /* Otros estilos CSS según tus preferencias */
 }
@@ -57,7 +58,7 @@
   font-size: 3rem;
   margin-top: 50px;
   font-weight: bold; /* Negrita */
-  color: #ffffff;
+  color: #000;
   padding: auto;
   font-family:'Courier New', Courier, monospace;
   margin-bottom: 1%;
@@ -92,8 +93,8 @@ li {
   background-size: cover;
   border-radius: 50%;
   position: absolute;
-  margin-top: 30%;
-  /* margin-bottom: 10%; */
+  /* margin-top: 5%; */
+  margin-bottom: 30%;
   animation: rotate 90s linear infinite; 
   /* Aplica la animación llamada 'rotate' */
 }
@@ -137,13 +138,13 @@ li {
 .countdown-number {
   font-size: 3rem;
   font-weight: bold;
-  color: #ffff;
+  color: #000;
   font-family:'Courier New', Courier, monospace;
 }
 
 .countdown-label {
   font-size: 0.9rem;
-  color: #ffff;
+  color: #000;
   font-family:'Courier New', Courier, monospace;
 }
 
@@ -176,11 +177,20 @@ li {
     width: auto;
     font-size: 1.5rem;
     size: 0cap;
-    margin-top: 50%;
+    margin-top: 40%;
   }
   .mars-title h2 {
     width: auto;
     font-size: 1.2rem;
+    text-align: center;
+    display: block;
+    position: absolute;
+    margin-top: 30%;
+  }
+
+  .mars-title p {
+    width: auto;
+    font-size: 0.7rem;
     text-align: center;
     display: block;
     position: absolute;
