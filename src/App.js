@@ -11,7 +11,7 @@ import { Row, Col, Container, Card, Button } from "react-bootstrap";
 
 
 const App = () => {
-  const urlExterna = 'https://www.ejemplo.com';
+  const urlExterna = 'http://www.r3colecta.com';
   return (
     <div>
       {/*  <Navbar /> */}
