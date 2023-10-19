@@ -21,7 +21,7 @@ const App = () => {
       
         <div className="d-grid gap-2 mars-button">
           <Button variant="primary" size="lg">
-            RESERVAR ARBOL
+            RESERVA TU ARBOL
           </Button>
         </div>
       

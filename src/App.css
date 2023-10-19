@@ -188,6 +188,10 @@ li {
     display: none;
   }
 
+  .mars-button{
+    padding-top: 0%;
+    padding-bottom: 30%;
+  }
   .mars-background h1 {
     padding-top: 20%;
     padding-bottom: 10%;
