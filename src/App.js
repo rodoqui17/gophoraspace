@@ -2,7 +2,7 @@ import React from "react";
 import "./App.css";
 import CountdownTimer from "./components/cuenta";
 import options from "./components/data";
-import imagen from "./img/astronauta.png";
+ import imagen from "./img/mars2.png";
 import { Row, Col, Container, Card } from "react-bootstrap";
 const App = () => {
   console.log(Row);
@@ -11,16 +11,19 @@ const App = () => {
       {/*  <Navbar /> */}
       {/* <h3 className="planet-inner"></h3> */}
       <CountdownTimer />
+      
       <div className="mars-title">
-        <h2>#gophoralanzatunombrealespacio</h2>
-        <h1>11 DE NOVIEMBRE, 2023</h1>
+      <h3 className="planet"></h3>
+        <h2>#unarbolcontunombre</h2>
+        <h1>24 DE OCTUBRE, 2023</h1>
 
-        <h3 className="flotar"></h3>
+        
         <br />
       </div>
+      
 
       <div className="mars-background">
-        <h1>TRIPULANTES</h1>
+        <h1>APORTANTES</h1>
         <Container>
           <Row>
             {options.map((option, index) => (
