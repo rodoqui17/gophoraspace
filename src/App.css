@@ -26,6 +26,7 @@
   height: 100vh;
   color: aliceblue;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -286,4 +287,10 @@ li {
   100% {
     transform: translateY(-60px);
   }
+}
+
+.btn-custom {
+  font-size: large !important;
+  font-weight: bold !important;
+  border-width: 3px !important;
 }
