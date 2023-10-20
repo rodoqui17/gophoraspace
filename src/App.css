@@ -183,7 +183,7 @@ li {
     text-align: center;
     display: block;
     position: absolute;
-    margin-top: 30%;
+    margin-top: 25%;
   }
   .countdown h1 {
     width: auto;
@@ -199,7 +199,7 @@ li {
   .flotar {
     position: absolute;
     margin-top: 10%;
-    margin-bottom: 50%;
+    margin-bottom: 40%;
   }
 }
 
