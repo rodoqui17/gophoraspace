@@ -26,12 +26,12 @@ const App = () => {
         <Container>
           <Row>
             {options.map((option, index) => (
-              <Col xs={12} lg={3}>
+              <Col xs={12} lg={4}>
                 <div ClassName="tarjeta">
                   <Card
                     style={{ width: "auto", padding: "10px", margin: "10px", fontfamily:"'Courier New', Courier, monospace" }}
                   >
-                    <Card.Img variant="top" src={imagen} />
+                    <Card.Img variant="top" src={option.img} style={{ width: "auto", height:"350px", padding: "5px", margin: "10px", fontfamily:"'Courier New', Courier, monospace" }} />
                     <Card.Body>
                       <Card.Title>{option.nombre}</Card.Title>
                       <Card.Text>Tripulante # {option.id}</Card.Text>

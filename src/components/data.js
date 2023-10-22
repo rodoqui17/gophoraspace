@@ -1,5 +1,5 @@
 import React from "react";
-import img from "../img/1.jpg"
+import img from "../img/astronauta.png"
 var options = [
   {
     id: 1,
@@ -19,12 +19,12 @@ var options = [
   {
     id: 4,
     nombre: "ERICK CRISTHIAN ZACARIAS TORREZ",
-    img: img
+    img: "https://nftstorage.link/ipfs/bafybeibzayviyi7drtkimplc6bxq4626vu2ggfdjvpeyzcsmkxunlwicoi/ericksazacarias.jpeg"
   },
   {
     id: 5,
     nombre: "DANIELSARABIA YUJRA",
-    img: img
+    img: "https://nftstorage.link/ipfs/bafybeibzayviyi7drtkimplc6bxq4626vu2ggfdjvpeyzcsmkxunlwicoi/danielsarabia.jpeg"
   },
   {
     id: 6,
@@ -34,7 +34,7 @@ var options = [
   {
     id: 7,
     nombre: "DILAN APOLACA MARINO",
-    img: img
+    img: "https://nftstorage.link/ipfs/bafybeibzayviyi7drtkimplc6bxq4626vu2ggfdjvpeyzcsmkxunlwicoi/dilanapolanca.jpeg"
   },
   {
     id: 8,
@@ -54,7 +54,7 @@ var options = [
   {
     id: 11,
     nombre: "RUBEN QUISPE VALDA",
-    img: img
+    img: "https://nftstorage.link/ipfs/bafybeibzayviyi7drtkimplc6bxq4626vu2ggfdjvpeyzcsmkxunlwicoi/rubenquispe.jpeg"
   },
   {
     id: 12,
