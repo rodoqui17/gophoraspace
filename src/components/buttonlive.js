@@ -1,20 +1,20 @@
-import React from 'react'
-import PropTypes from 'prop-types'
+import React from "react";
+import PropTypes from "prop-types";
 
-function Buttoncomponent({url}) {
+function Buttoncomponent({ url }) {
   return (
-    <a href={url}>
-        <button type="button" class="btn btn-custom btn-outline-light">Ingresa a la nave</button>
-    </a>
-    
-  )
+    <div>
+      <a href={url}>
+        <button type="button" class="btn btn-custom btn-outline-light">
+          Ingresar a la nave
+        </button>
+      </a>
+    </div>
+  );
 }
-
 
 Buttoncomponent.propTypes = {
-    url: PropTypes.string.isRequired
-}
+  url: PropTypes.string.isRequired,
+};
 
-
-
-export default Buttoncomponent
+export default Buttoncomponent;

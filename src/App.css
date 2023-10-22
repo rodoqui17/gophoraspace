@@ -13,7 +13,7 @@
   background-size: cover;
   font-size: 40px; /* Tamaño de fuente */
   font-weight: bold; /* Negrita */
-  font-family:'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
   height: 10vh;
   display: flex;
   justify-content: center;
@@ -32,8 +32,7 @@
 }
 
 .mars-footer {
-   background-size: cover;
-  height: 30vh;
+  background-size: cover;
   color: aliceblue;
   display: flex;
   font-size: 100px;
@@ -48,7 +47,7 @@
   font-weight: bold; /* Negrita */
   text-align: center; /* Alineación de texto */
   position: absolute;
-  font-family:'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
   margin-bottom: 10%;
 
   /* Otros estilos CSS según tus preferencias */
@@ -71,7 +70,7 @@
   font-weight: bold; /* Negrita */
   color: #ffffff;
   padding: auto;
-  font-family:'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
   margin-bottom: 1%;
   text-decoration: overline;
 }
@@ -148,13 +147,13 @@ li {
   font-size: 3rem;
   font-weight: bold;
   color: #ffff;
-  font-family:'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
 }
 
 .countdown-label {
   font-size: 0.9rem;
   color: #ffff;
-  font-family:'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
 }
 
 @media screen and (max-width: 1023px) {

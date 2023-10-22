@@ -4,7 +4,7 @@ import CountdownTimer from "./components/cuenta";
 import options from "./components/data";
 import Buttoncomponent from "./components/button";
 import Buttoncomponentlive from "./components/buttonlive";
-import imagen from "./img/astronauta.png";
+import imagen from "./img/starship.png";
 import { Row, Col, Container, Card } from "react-bootstrap";
 const App = () => {
   console.log(Row);
@@ -19,9 +19,8 @@ const App = () => {
 
         <h3 className="flotar"></h3>
         <br />
-    
-            <Buttoncomponent url="https://forms.gle/oRzn4hdUv9dHLfsL9" />
-         
+
+        <Buttoncomponent url="https://forms.gle/oRzn4hdUv9dHLfsL9" />
       </div>
 
       <div className="mars-background">
@@ -59,11 +58,12 @@ const App = () => {
               </Col>
             ))}
           </Row>
+          <div className="mars-footer">
           
-        </Container>
-        <div className="mars-footer">
-        <Buttoncomponentlive url="https://discord.gg/WvPMNTqa" />
+          <Buttoncomponentlive url="https://discord.gg/WvPMNTqa" />
         </div>
+        </Container>
+        
         {/* <Container>
           <Row>
             <Col xs={6} lg={3}>
