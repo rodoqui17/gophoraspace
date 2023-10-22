@@ -3,6 +3,7 @@ import "./App.css";
 import CountdownTimer from "./components/cuenta";
 import options from "./components/data";
 import Buttoncomponent from "./components/button";
+import Buttoncomponentlive from "./components/buttonlive";
 import imagen from "./img/astronauta.png";
 import { Row, Col, Container, Card } from "react-bootstrap";
 const App = () => {
@@ -17,8 +18,10 @@ const App = () => {
         <h1>11 DE NOVIEMBRE, 2023</h1>
 
         <h3 className="flotar"></h3>
-        <br/>
-        <Buttoncomponent url="https://forms.gle/oRzn4hdUv9dHLfsL9"/>
+        <br />
+    
+            <Buttoncomponent url="https://forms.gle/oRzn4hdUv9dHLfsL9" />
+         
       </div>
 
       <div className="mars-background">
@@ -29,9 +32,23 @@ const App = () => {
               <Col xs={12} lg={4}>
                 <div ClassName="tarjeta">
                   <Card
-                    style={{ width: "auto", padding: "10px", margin: "10px", fontfamily:"'Courier New', Courier, monospace" }}
+                    style={{
+                      width: "auto",
+                      padding: "10px",
+                      margin: "10px",
+                      fontfamily: "'Courier New', Courier, monospace",
+                    }}
                   >
-                    <Card.Img variant="top" src={option.img} style={{ width: "auto", height:"350px", padding: "5px", margin: "10px", fontfamily:"'Courier New', Courier, monospace" }} />
+                    <Card.Img
+                      variant="top"
+                      src={option.img}
+                      style={{
+                        width: "auto",
+                        height: "350px",
+                        padding: "5px",
+                        fontfamily: "'Courier New', Courier, monospace",
+                      }}
+                    />
                     <Card.Body>
                       <Card.Title>{option.nombre}</Card.Title>
                       <Card.Text>Tripulante # {option.id}</Card.Text>
@@ -42,8 +59,11 @@ const App = () => {
               </Col>
             ))}
           </Row>
+          
         </Container>
-
+        <div className="mars-footer">
+        <Buttoncomponentlive url="https://discord.gg/WvPMNTqa" />
+        </div>
         {/* <Container>
           <Row>
             <Col xs={6} lg={3}>
