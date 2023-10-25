@@ -40,6 +40,17 @@
   height: 100vh;
   color: aliceblue;
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.mars-footer {
+  background-size: cover;
+  color: aliceblue;
+  display: flex;
+  font-size: 100px;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -153,13 +164,21 @@ li {
 .countdown-number {
   font-size: 3rem;
   font-weight: bold;
+<<<<<<< HEAD
   color: #fff;
+=======
+  color: #ffff;
+>>>>>>> 86a4d50356bf42efb0071f0ad1a750c4b6448072
   font-family: "Courier New", Courier, monospace;
 }
 
 .countdown-label {
   font-size: 0.9rem;
+<<<<<<< HEAD
   color: #fff;
+=======
+  color: #ffff;
+>>>>>>> 86a4d50356bf42efb0071f0ad1a750c4b6448072
   font-family: "Courier New", Courier, monospace;
 }
 
@@ -209,6 +228,7 @@ li {
     text-align: center;
     display: block;
     position: absolute;
+<<<<<<< HEAD
     margin-top: 20%;
   }
   .mars-title button {
@@ -227,6 +247,9 @@ li {
     display: block;
     position: absolute;
     margin-top: 30%;
+=======
+    margin-top: 25%;
+>>>>>>> 86a4d50356bf42efb0071f0ad1a750c4b6448072
   }
   .countdown h1 {
     width: auto;
@@ -242,7 +265,7 @@ li {
   .flotar {
     position: absolute;
     margin-top: 10%;
-    margin-bottom: 50%;
+    margin-bottom: 40%;
   }
 }
 
@@ -330,4 +353,10 @@ li {
   100% {
     transform: translateY(-60px);
   }
+}
+
+.btn-custom {
+  font-size: large !important;
+  font-weight: bold !important;
+  border-width: 3px !important;
 }

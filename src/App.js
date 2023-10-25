@@ -2,6 +2,7 @@ import React from "react";
 import "./App.css";
 import CountdownTimer from "./components/cuenta";
 import options from "./components/data";
+<<<<<<< HEAD
 import imagen from "./img/mars2.png";
 import { useEffect } from "react";
 import { Row, Col, Container, Card, Button } from "react-bootstrap";
@@ -10,6 +11,12 @@ import { Row, Col, Container, Card, Button } from "react-bootstrap";
  
 
 
+=======
+import Buttoncomponent from "./components/button";
+import Buttoncomponentlive from "./components/buttonlive";
+import imagen from "./img/starship.png";
+import { Row, Col, Container, Card } from "react-bootstrap";
+>>>>>>> 86a4d50356bf42efb0071f0ad1a750c4b6448072
 const App = () => {
   const urlExterna = 'http://www.r3colecta.com';
   return (
@@ -18,11 +25,18 @@ const App = () => {
       {/* <h3 className="planet-inner"></h3> */}
       <CountdownTimer />
 
+<<<<<<< HEAD
       <div className="mars-title">
         <h3 className="planet"></h3>
         <h2>#reforestemoselplaneta</h2>
         <h1>24 DE OCTUBRE, 2023</h1>
         <p>Vive una experiencia de triple impacto</p>
+=======
+        <h3 className="flotar"></h3>
+        <br />
+
+        <Buttoncomponent url="https://forms.gle/oRzn4hdUv9dHLfsL9" />
+>>>>>>> 86a4d50356bf42efb0071f0ad1a750c4b6448072
       </div>
       
         <div className="d-grid gap-2 mars-button">
@@ -36,7 +50,7 @@ const App = () => {
         <Container>
           <Row>
             {options.map((option, index) => (
-              <Col xs={12} lg={3}>
+              <Col xs={12} lg={4}>
                 <div ClassName="tarjeta">
                   <Card
                     style={{
@@ -46,7 +60,16 @@ const App = () => {
                       fontfamily: "'Courier New', Courier, monospace",
                     }}
                   >
-                    <Card.Img variant="top" src={imagen} />
+                    <Card.Img
+                      variant="top"
+                      src={option.img}
+                      style={{
+                        width: "auto",
+                        height: "350px",
+                        padding: "5px",
+                        fontfamily: "'Courier New', Courier, monospace",
+                      }}
+                    />
                     <Card.Body>
                       <Card.Title>Lugar: Palca</Card.Title>
                       <Card.Text>Nombre: {option.nombre}</Card.Text>
@@ -58,8 +81,12 @@ const App = () => {
               </Col>
             ))}
           </Row>
+          <div className="mars-footer">
+          
+          <Buttoncomponentlive url="https://discord.gg/WvPMNTqa" />
+        </div>
         </Container>
-
+        
         {/* <Container>
           <Row>
             <Col xs={6} lg={3}>
