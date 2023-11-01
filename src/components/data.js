@@ -44,7 +44,7 @@ var options = [
   {
     id: 9,
     nombre: "ROSSIE JASHIEL GUTIEREZ SARDINAS",
-    img: img
+    img: "https://nftstorage.link/ipfs/bafybeia6ulyqsc2yji6paukb42kxch7hxqioh3r6yfbekxjrkwtxwhi36a/rossiegutierrez.jpeg"
   },
   {
     id: 10,

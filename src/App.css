@@ -1,5 +1,5 @@
 .mars-background {
-  background: url("/src/img/marte.jpg") no-repeat center center fixed;
+  background: url("/src/img/gophoraback3.jpg") no-repeat center center fixed;
   background-size: cover;
   height: auto;
   /* display: flex; */
@@ -21,7 +21,7 @@
 }
 
 .mars-title {
-  background: url("/src/img/gophoraback2.jpg") no-repeat center center fixed;
+  background: url("/src/img/gophoraback3.jpg") no-repeat center center fixed;
   background-size: cover;
   height: 100vh;
   color: aliceblue;
@@ -48,7 +48,7 @@
   text-align: center; /* Alineación de texto */
   position: absolute;
   font-family: "Courier New", Courier, monospace;
-  margin-bottom: 10%;
+  margin-bottom: 12%;
 
   /* Otros estilos CSS según tus preferencias */
 }
@@ -185,7 +185,7 @@ li {
     width: auto;
     font-size: 1.5rem;
     size: 0cap;
-    margin-top: 50%;
+    margin-top: 80%;
   }
   .mars-title h2 {
     width: auto;
@@ -193,7 +193,7 @@ li {
     text-align: center;
     display: block;
     position: absolute;
-    margin-top: 25%;
+    margin-top: 35%;
   }
   .countdown h1 {
     width: auto;

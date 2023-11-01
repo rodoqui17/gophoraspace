@@ -17,10 +17,18 @@ const App = () => {
         <h2>#gophoralanzatunombrealespacio</h2>
         <h1>11 DE NOVIEMBRE, 2023</h1>
 
-        <h3 className="flotar"></h3>
+        {/* <h3 className="flotar"></h3> */}
         <br />
-
-        <Buttoncomponent url="https://forms.gle/oRzn4hdUv9dHLfsL9" />
+        
+          <Row className="text-center">
+            <Col lg={6} sm={12} className="mb-12">
+              <Buttoncomponent url="https://forms.gle/oRzn4hdUv9dHLfsL9" />
+            </Col>
+            <Col lg={6} sm={12} className="mb-3">
+              <Buttoncomponentlive url="https://discord.gg/WvPMNTqa" />
+            </Col>
+          </Row>
+        
       </div>
 
       <div className="mars-background">
@@ -58,12 +66,8 @@ const App = () => {
               </Col>
             ))}
           </Row>
-          <div className="mars-footer">
-          
-          <Buttoncomponentlive url="https://discord.gg/WvPMNTqa" />
-        </div>
         </Container>
-        
+
         {/* <Container>
           <Row>
             <Col xs={6} lg={3}>

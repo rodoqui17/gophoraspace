@@ -3,9 +3,13 @@ import PropTypes from 'prop-types'
 
 function Buttoncomponent({url}) {
   return (
-    <a href={url}>
-        <button type="button" class="btn btn-custom btn-outline-light">Reserva tu ticket</button>
-    </a>
+      <div>
+      <a href={url}>
+        <button type="button" class="btn btn-custom btn-outline-light">
+          Reservar
+        </button>
+      </a>
+    </div>
     
   )
 }
