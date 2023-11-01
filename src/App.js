@@ -2,9 +2,10 @@ import React from "react";
 import "./App.css";
 import CountdownTimer from "./components/cuenta";
 import options from "./components/data";
+import optionslist from "./components/datalist";
 import Buttoncomponent from "./components/button";
 import Buttoncomponentlive from "./components/buttonlive";
-import imagen from "./img/starship.png";
+import imagen from "./img/astronauta.png";
 import { Row, Col, Container, Card } from "react-bootstrap";
 const App = () => {
   console.log(Row);
@@ -19,20 +20,19 @@ const App = () => {
 
         {/* <h3 className="flotar"></h3> */}
         <br />
-        
-          <Row className="text-center">
-            <Col lg={6} sm={12} className="mb-12">
-              <Buttoncomponent url="https://forms.gle/oRzn4hdUv9dHLfsL9" />
-            </Col>
-            <Col lg={6} sm={12} className="mb-3">
-              <Buttoncomponentlive url="https://discord.gg/zjdaEPQGa" />
-            </Col>
-          </Row>
-        
+
+        <Row className="text-center">
+          <Col lg={6} sm={12} className="mb-12">
+            <Buttoncomponent url="https://forms.gle/oRzn4hdUv9dHLfsL9" />
+          </Col>
+          <Col lg={6} sm={12} className="mb-3">
+            <Buttoncomponentlive url="https://discord.gg/zjdaEPQGa" />
+          </Col>
+        </Row>
       </div>
 
       <div className="mars-background">
-        <h1>TRIPULANTES</h1>
+        <h1>TRIPULANTES MARTE</h1>
         <Container>
           <Row>
             {options.map((option, index) => (
@@ -53,6 +53,7 @@ const App = () => {
                         width: "auto",
                         height: "350px",
                         padding: "5px",
+                        borderRadius:"50%",
                         fontfamily: "'Courier New', Courier, monospace",
                       }}
                     />
@@ -67,7 +68,44 @@ const App = () => {
             ))}
           </Row>
         </Container>
-
+        <h1>TRIPULANTES LUNA</h1>
+        <Container>
+          <Row>
+            {optionslist.map((optionslist, index) => (
+              <Col xs={12} lg={4}>
+                <div ClassName="tarjeta">
+                  <Card
+                    style={{
+                      width: "auto",
+                      padding: "10px",
+                      margin: "10px",
+                  
+                      fontfamily: "'Courier New', Courier, monospace",
+                    }}
+                  >
+                    <Card.Img
+                      variant="top"
+                      src={imagen}
+                      style={{
+                        width: "50px",
+                        height: "50px",
+                        padding: "5px",
+                        borderRadius:"50%",
+                        fontfamily: "'Courier New', Courier, monospace",
+                      }}
+                    />
+                    <Card.Body>
+                      {/* <Card.Img variant="top" src={imagen} /> */}
+                      <Card.Title>{optionslist.Nombre}</Card.Title>
+                      <Card.Text>Tripulante # {optionslist.ID}</Card.Text>
+                      {/* <Button variant="primary">Go somewhere</Button> */}
+                    </Card.Body>
+                  </Card>
+                </div>
+              </Col>
+            ))}
+          </Row>
+        </Container>
         {/* <Container>
           <Row>
             <Col xs={6} lg={3}>
