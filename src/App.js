@@ -25,7 +25,7 @@ const App = () => {
               <Buttoncomponent url="https://forms.gle/oRzn4hdUv9dHLfsL9" />
             </Col>
             <Col lg={6} sm={12} className="mb-3">
-              <Buttoncomponentlive url="https://discord.gg/WvPMNTqa" />
+              <Buttoncomponentlive url="https://discord.gg/zjdaEPQGa" />
             </Col>
           </Row>
         
