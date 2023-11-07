@@ -6,7 +6,7 @@ function Buttoncomponent({ url }) {
     <div>
       <a href={url}>
         <button type="button" class="btn btn-custom btn-outline-light">
-          Ingresar
+          Ingresar a la nave
         </button>
       </a>
     </div>

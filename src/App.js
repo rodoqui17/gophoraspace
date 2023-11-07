@@ -7,6 +7,7 @@ import Buttoncomponent from "./components/button";
 import Buttoncomponentlive from "./components/buttonlive";
 import imagen from "./img/astronauta.png";
 import { Row, Col, Container, Card } from "react-bootstrap";
+import datacomando from "./components/data_comando";
 const App = () => {
   console.log(Row);
   return (
@@ -18,25 +19,62 @@ const App = () => {
         <h2>#gophoralanzatunombrealespacio</h2>
         <h1>11 DE NOVIEMBRE, 2023</h1>
 
-        {/* <h3 className="flotar"></h3> */}
+        <h3 className="flotar"></h3>
         <br />
 
         <Row className="text-center">
-          <Col lg={6} sm={12} className="mb-12">
+          {/* <Col lg={6} sm={12} className="mb-12">
             <Buttoncomponent url="https://forms.gle/oRzn4hdUv9dHLfsL9" />
-          </Col>
-          <Col lg={6} sm={12} className="mb-3">
+          </Col> */}
+          <Col lg={12} sm={12} className="mb-3">
             <Buttoncomponentlive url="https://discord.gg/zjdaEPQGa" />
           </Col>
         </Row>
       </div>
 
       <div className="mars-background">
-        <h1>TRIPULANTES MARTE</h1>
+        <h1>EQUIPO DE NAVEGACIÓN</h1>
+        <Container>
+          <Row>
+            {datacomando.map((datacom, index) => (
+              <Col xs={12} lg={3}>
+                <div ClassName="tarjeta">
+                  <Card
+                    style={{
+                      width: "auto",
+                      padding: "10px",
+                      margin: "10px",
+                      fontfamily: "'Courier New', Courier, monospace",
+                    }}
+                  >
+                    <Card.Img
+                      variant="top"
+                      src={datacom.img}
+                      style={{
+                        width: "auto",
+                        height: "250px",
+                        padding: "5px",
+                        borderRadius:"50%",
+                        fontfamily: "'Courier New', Courier, monospace",
+                      }}
+                    />
+                    <Card.Body>
+                      <Card.Title>{datacom.nombre}</Card.Title>
+                      <Card.Text>Oficial # {datacom.id}</Card.Text>
+                      {/* <Button variant="primary">Go somewhere</Button> */}
+                    </Card.Body>
+                  </Card>
+                </div>
+              </Col>
+            ))}
+          </Row>
+        </Container>
+
+        <h1>TRIPULANTES A MARTE</h1>
         <Container>
           <Row>
             {options.map((option, index) => (
-              <Col xs={12} lg={4}>
+              <Col xs={12} lg={3}>
                 <div ClassName="tarjeta">
                   <Card
                     style={{
@@ -51,7 +89,7 @@ const App = () => {
                       src={option.img}
                       style={{
                         width: "auto",
-                        height: "350px",
+                        height: "250px",
                         padding: "5px",
                         borderRadius:"50%",
                         fontfamily: "'Courier New', Courier, monospace",
@@ -68,7 +106,7 @@ const App = () => {
             ))}
           </Row>
         </Container>
-        <h1>TRIPULANTES LUNA</h1>
+        <h1>TRIPULANTES A LA LUNA</h1>
         <Container>
           <Row>
             {optionslist.map((optionslist, index) => (

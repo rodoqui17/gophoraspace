@@ -1,22 +1,22 @@
 var optionslist = [
-    {
-        "ID": "1",
-        "fecha": "10/6/2023 0:29:18",
-        "Nombre": "Andrea Virginia Covarrubias Centellas",
-        "Telefono": "70516511",
-        "email": "laboratoriovisnity@gmail.com",
-        "img": null,
-        "ticket": "40 Bs (Tu Nombre, foto, y un NFT)"
-    },
-    {
-        "ID": "2",
-        "fecha": "10/6/2023 1:13:48",
-        "Nombre": "Andrea Covarrubias",
-        "Telefono": "70516511",
-        "email": "laboratoriovisnity@gmail.clm",
-        "img": null,
-        "ticket": "40 Bs (Tu Nombre, foto, y un NFT)"
-    },
+    // {
+    //     "ID": "1",
+    //     "fecha": "10/6/2023 0:29:18",
+    //     "Nombre": "Andrea Virginia Covarrubias Centellas",
+    //     "Telefono": "70516511",
+    //     "email": "laboratoriovisnity@gmail.com",
+    //     "img": null,
+    //     "ticket": "40 Bs (Tu Nombre, foto, y un NFT)"
+    // },
+    // {
+    //     "ID": "2",
+    //     "fecha": "10/6/2023 1:13:48",
+    //     "Nombre": "Andrea Covarrubias",
+    //     "Telefono": "70516511",
+    //     "email": "laboratoriovisnity@gmail.clm",
+    //     "img": null,
+    //     "ticket": "40 Bs (Tu Nombre, foto, y un NFT)"
+    // },
     {
         "ID": 3,
         "fecha": "10/6/2023 22:15:33",
