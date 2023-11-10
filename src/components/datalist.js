@@ -1727,14 +1727,5 @@ var optionslist = [
         "img": null,
         "ticket": "Luna (Gratis, incluye Tu Nombre)"
     },
-    {
-        "ID": 193,
-        "fecha": "10/26/2023 9:50:19",
-        "Nombre": "Visnity",
-        "Telefono": "70516511",
-        "email": "laboratoriovisnity@gmail.com",
-        "img": null,
-        "ticket": "Marte (40 Bs , incluye tu Nombre, foto, y un NFT de regalo)"
-    }
 ]
 export default optionslist;

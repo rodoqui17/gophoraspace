@@ -4,7 +4,7 @@ var options = [
   {
     id: 1,
     nombre: "LUIS PARICOLLO",
-    img: img
+    img: "https://nftstorage.link/ipfs/bafybeiggxife5hspgqetgf7na7irfz7jpl3wrl3fwisrjbdflsb46w5akm/lparicollo.jpeg"
   },
   {
     id: 2,
@@ -61,5 +61,16 @@ var options = [
     nombre: "EDMUNDO MERCADO",
     img: img
   },
+  {
+    id: 13,
+    nombre: "PAOLA ELIAS CERVANTES",
+    img: "https://nftstorage.link/ipfs/bafybeiggxife5hspgqetgf7na7irfz7jpl3wrl3fwisrjbdflsb46w5akm/pcervantes.jpeg"
+  },
+  {
+    id: 14,
+    nombre: "AYELEN MARIANA PADILLA BALDERRAMA",
+    img: "https://nftstorage.link/ipfs/bafybeiggxife5hspgqetgf7na7irfz7jpl3wrl3fwisrjbdflsb46w5akm/apadilla.jpeg"
+  },
+  
 ];
 export default options;

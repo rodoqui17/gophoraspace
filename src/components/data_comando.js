@@ -19,12 +19,12 @@ var datacomando = [
   {
     id: 4,
     nombre: "TOMAS PEÑALOZA",
-    img: img
+    img: "https://nftstorage.link/ipfs/bafybeiggxife5hspgqetgf7na7irfz7jpl3wrl3fwisrjbdflsb46w5akm/tpenaloza.jpeg"
   },
   {
     id: 5,
     nombre: "OSCAR PEREZ",
-    img: img
+    img: "https://nftstorage.link/ipfs/bafybeiggxife5hspgqetgf7na7irfz7jpl3wrl3fwisrjbdflsb46w5akm/oscarvc.jpeg"
   },
   
 ];
