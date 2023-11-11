@@ -1727,5 +1727,14 @@ var optionslist = [
         "img": null,
         "ticket": "Luna (Gratis, incluye Tu Nombre)"
     },
+    {
+        "ID": 193,
+        "fecha": "9/11/2023 15:59:32",
+        "Nombre": "Cecilia González Paredes",
+        "Telefono": "76596082",
+        "email": "biotecbolivia@gmail.com",
+        "img": null,
+        "ticket": "Luna (Gratis, incluye Tu Nombre)"
+    }
 ]
 export default optionslist;
