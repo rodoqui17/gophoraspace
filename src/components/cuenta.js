@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "../App.css"
 const CountdownTimer = () => {
-  const targetDate = new Date("2023-11-11T00:00:00Z"); // Fecha de destino (11 de noviembre de 2023)
+  const targetDate = new Date("2023-11-12T00:00:00Z"); // Fecha de destino (11 de noviembre de 2023)
   const now = new Date();
   const timeDifference = targetDate - now; // Diferencia de tiempo en milisegundos
 
