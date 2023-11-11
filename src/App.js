@@ -23,10 +23,10 @@ const App = () => {
         <br />
 
         <Row className="text-center">
-          <Col lg={6} sm={12} className="mb-12">
+          <Col lg={6} xs={6} className="mb-6">
             <Buttoncomponent url="https://forms.gle/oRzn4hdUv9dHLfsL9" />
           </Col>
-          <Col lg={6} sm={12} className="mb-12">
+          <Col lg={6} xs={6} className="mb-6">
             <Buttoncomponentlive url="https://www.gophora.com" />
           </Col>
           
