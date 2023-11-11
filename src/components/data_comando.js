@@ -14,7 +14,7 @@ var datacomando = [
   {
     id: 3,
     nombre: "RODRIGO QUIROZ",
-    img: img
+    img: "https://nftstorage.link/ipfs/bafybeigorxpjvgsb6xouilm24xbjhnldn3cycnspgqhn6a24js2exjw4vi/jquirozb.jpeg"
   },
   {
     id: 4,
