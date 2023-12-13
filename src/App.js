@@ -17,7 +17,7 @@ const App = () => {
       {/* <CountdownTimer /> */}
       <div className="mars-title">
         <h2>#gophoralanzatunombrealespacio</h2>
-        <h1>11 DE NOVIEMBRE, 2023</h1>
+        {/* <h1>11 DE NOVIEMBRE, 2023</h1> */}
 
         <h3 className="flotar"></h3>
         <br />
